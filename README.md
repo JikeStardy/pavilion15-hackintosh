@@ -21,11 +21,11 @@ _光影精灵4 i5-8300H + GTX1050Ti 黑苹果EFI_
 - 扬声器外放
 - WiFi<sup>[⑤](#fifth)</sup>
 
-<span id="first"><font size=2>①还没想到怎么解决多点触控和手势问题</font></span>
-<span id="second"><font size=2>②这个开机不黑屏挺玄学的，一时时的</font></span>
-<span id="third"><font size=2>③实测可以TypeC转HDMI输出HDMI信号，但最好在机子开好了再接上，不然内屏会黑掉一直亮不起来（有亮度但没画面）</font></span>
-<span id="fourth"><font size=2>④需要先打开Windows再重启到macOS里</font></span>
-<span id="fourth"><font size=2>⑤这个东西是无解的（除非你内置的网卡恰恰好是博通？），对WiFi功能有需要就去买USB网卡或者换掉内置的网卡（这样还能顺带解决蓝牙的问题），具体怎么选择USB无线网卡的型号参考[这个USB网卡驱动的Readme](https://github.com/chris1111/Wireless-USB-Adapter-Clover)（我选了TPLink的wn725nV3，一开始下载的官方驱动，搞得我心态都炸了，然后发现这个好用，完美驱动起wn725n）</font></span>
+<span id="first"><font size=2>①还没想到怎么解决多点触控和手势问题</font></span>  
+<span id="second"><font size=2>②这个开机不黑屏挺玄学的，一时时的</font></span>  
+<span id="third"><font size=2>③实测可以TypeC转HDMI输出HDMI信号，但最好在机子开好了再接上，不然内屏会黑掉一直亮不起来（有亮度但没画面）</font></span>  
+<span id="fourth"><font size=2>④需要先打开Windows再重启到macOS里</font></span>  
+<span id="fourth"><font size=2>⑤这个东西是无解的（除非你内置的网卡恰恰好是博通？），对WiFi功能有需要就去买USB网卡或者换掉内置的网卡（这样还能顺带解决蓝牙的问题），具体怎么选择USB无线网卡的型号参考[这个USB网卡驱动的Readme](https://github.com/chris1111/Wireless-USB-Adapter-Clover)（我选了TPLink的wn725nV3，一开始下载的官方驱动，搞得我心态都炸了，然后发现这个好用，完美驱动起wn725n）</font></span>  
 
 # 让机子记忆上次开机使用的亮度的方法（有时候会抽一下）
 因为不能利用原生nvram来储存亮度，所以利用RC scripts来保存，安装Clover时选择RC scripts即可
